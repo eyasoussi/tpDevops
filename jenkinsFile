@@ -1,0 +1,16 @@
+pipeline{
+    agent  any
+
+    stages {
+
+        stage ('Pull From Github'){
+
+            steps{
+                git branch:'main',url'https://github.com/dumbmety/todo-list.git'
+
+            }
+
+        }
+    }
+
+}
