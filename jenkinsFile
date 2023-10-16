@@ -6,12 +6,13 @@ pipeline{
         stage ('Pull From Github'){
 
             steps{
-
+                dir('C:\Users\ASUS\OneDrive\Bureau\tp\tpDevopss\tpDevops') {
                 git branch: 'main',url: 'https://github.com/eyasoussi/tpDevops.git'
 
             }
 
-        }
+        }  
     }
 
+}
 }
