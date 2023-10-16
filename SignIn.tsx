@@ -126,16 +126,8 @@ const SignIn: FC<SignInProps> = () => {
               />
             </div>
 
-            <ReCAPTCHA ref={recaptchaRef} size="invisible" sitekey={SITE_KEY} />
 
-            <Button
-              label={t('Sign In')}
-              cls="w-full rounded-lg mt-3 disabled:opacity-40"
-              labelCls="font-medium"
-              disabled={!isValid || signInStatus === SignInStatus.IN_PROGRESS}
-              isLoading={signInStatus === SignInStatus.IN_PROGRESS}
-              type="submit"
-            />
+           
           </form>
         </div>
       </div>
