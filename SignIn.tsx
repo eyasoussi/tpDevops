@@ -143,6 +143,11 @@ const SignIn: FC<SignInProps> = () => {
               industry. Lorem Ipsum has been the industry's standard dummy text
             </p>
           </div>
+          <div className="w-[60%] ml-auto mr-auto">
+            <p className="text-justify color-black mt-2">
+             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa jenkins
+            </p>
+          </div>
         </div>
       </div>
     </div>
