@@ -8,14 +8,9 @@ pipeline{
         stage ('Pull From Github'){
 
             steps{
-<<<<<<< HEAD
-                dir('C:\Users\ASUS\OneDrive\Bureau\tp\tpDevopss\tpDevops') {
+                dir('C:/Users/ASUS/OneDrive/Bureau/tp/tpDevopss/tpDevops') {
                     git branch: 'main',url: 'https://github.com/eyasoussi/tpDevops.git'
                 }
-=======
-                dir('C:/Users/ASUS/OneDrive/Bureau/tp/tpDevopss/tpDevops') {
-                git branch: 'main',url: 'https://github.com/eyasoussi/tpDevops.git'
->>>>>>> 4893938ade39053fed8eb8e1d643eadd9c32210f
 
             }  
         }
