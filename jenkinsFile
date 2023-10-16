@@ -1,5 +1,7 @@
 pipeline{
-    agent  any
+    agent {
+        label 'master'
+    }
 
     stages {
 
@@ -7,12 +9,11 @@ pipeline{
 
             steps{
                 dir('C:\Users\ASUS\OneDrive\Bureau\tp\tpDevopss\tpDevops') {
-                git branch: 'main',url: 'https://github.com/eyasoussi/tpDevops.git'
+                    git branch: 'main',url: 'https://github.com/eyasoussi/tpDevops.git'
+                }
 
-            }
+            }  
+        }
 
-        }  
-    }
-
-}
+    }   
 }
