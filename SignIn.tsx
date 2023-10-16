@@ -79,8 +79,7 @@ const SignIn: FC<SignInProps> = () => {
 
   return (
     <div className="flex min-h-screen bg-first">
-      <ThemeSwitch />
-
+      
       <div className="w-3/4 max-w-[900px] min-w-screen min-h-screen mx-auto h-full flex-col flex items-center justify-center sm:w-3/6 transition-all duration-1000">
         <div className="w-full h-full sm:w-full md:w-2/3 lg:w-5/6 xl:w-7/12">
           <div className="  flex justify-center items-center">
