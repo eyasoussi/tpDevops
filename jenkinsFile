@@ -6,8 +6,8 @@ pipeline{
         stage ('Pull From Github'){
 
             steps{
-                
-                git branch:'main',url'https://github.com/dumbmety/todo-list.git'
+
+                git branch: 'main',url: 'https://github.com/dumbmety/todo-list.git'
 
             }
 
